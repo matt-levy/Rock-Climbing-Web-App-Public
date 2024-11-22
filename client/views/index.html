@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Climbing Social Media Site</title>
+</head>
+
+<body>
+  <header>
+    <h1>Rock Climbing Community</h1>
+    <nav>
+      <!-- Placeholders for nav links -->
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="#">Messages</a>
+      <a href="#">Notifications</a>
+    </nav>
+  </header>
+
+  <div class="grade-filter">
+    <label for="gradeDropdown">Filter by Grade:</label>
+    <select id="gradeDropdown">
+      <option value="">Select a grade</option>
+      <option value="5.6">5.6</option>
+      <option value="5.7">5.7</option>
+      <option value="5.8">5.8</option>
+      <option value="5.9">5.9</option>
+      <option value="5.10">5.10</option>
+      <option value="5.11">5.11</option>
+      <option value="5.12">5.12</option>
+      <option value="5.13">5.13</option>
+    </select>
+  </div>
+
+  <main id="feed">
+
+  </main>
+
+  <button id="postButton">Post</button>
+
+  <div id="postFormContainer">
+    <form id="newPostForm">
+      <input type="text" id="postTitle" placeholder="Title" required><br>
+      <input type="text" id="climbName" placeholder="Climb Name" required><br>
+      <select id="climbGrade">
+        <option value="">Select Grade</option>
+        <option value="5.6">5.6</option>
+        <option value="5.7">5.7</option>
+        <option value="5.8">5.8</option>
+        <option value="5.9">5.9</option>
+        <option value="5.10">5.10</option>
+        <option value="5.11">5.11</option>
+        <option value="5.12">5.12</option>
+        <option value="5.13">5.13</option>
+      </select><br>
+      <textarea id="postBody" placeholder="Share your experience..." required></textarea><br>
+      <input type="submit" value="Post">
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2024 Rock Climbing Social Media Site</p>
+  </footer>
+
+  <script src="/js/feed-loader.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</body>
+
+</html>

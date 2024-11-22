@@ -1,0 +1,46 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-img {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.login-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 40px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input,
+.login-form button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form p {
+    text-align: center;
+}
+
+.login-form a {
+    color: #0066ff;
+}
